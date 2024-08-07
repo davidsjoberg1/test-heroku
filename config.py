@@ -4,7 +4,7 @@ import app
 
 
 TOKEN_EXPIRES = timedelta(hours=1)
-"""
+
 if 'NAMESPACE' in os.environ and os.environ['NAMESPACE'] == 'heroku':
     db_uri = os.environ['DATABASE_URL_TRUE']
     debug_flag = False
@@ -15,7 +15,7 @@ else:
 SQLALCHEMY_DATABASE_URI = db_uri
 JWT_SECRET_KEY = 'my secret key'
 JWT_ACCESS_TOKEN_EXPIRES = TOKEN_EXPIRES
-"""
+
 
 """if 'WEBSITE_HOSTNAME' in os.environ:  # running on Azure: use postgresql
     database = os.environ['DBNAME']  # postgres
@@ -33,6 +33,7 @@ else: # when running locally: use sqlite
 SQLALCHEMY_DATABASE_URI = db_uri
 JWT_SECRET_KEY = 'my secret key'
 JWT_ACCESS_TOKEN_EXPIRES = TOKEN_EXPIRES
+"""
 """
 
 if "AZURE_POSTGRESQL_CONNECTIONSTRING" in os.environ:
@@ -53,3 +54,4 @@ SQLALCHEMY_DATABASE_URI = db_uri
 JWT_SECRET_KEY = 'my secret key'
 JWT_ACCESS_TOKEN_EXPIRES = TOKEN_EXPIRES
 
+"""
