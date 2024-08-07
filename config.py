@@ -1,6 +1,6 @@
 import os
 from datetime import timedelta
-from golfbuddy import app
+import app
 
 
 TOKEN_EXPIRES = timedelta(hours=1)

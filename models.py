@@ -1,4 +1,4 @@
-from golfbuddy import app, db
+import app, db
 from flask_bcrypt import Bcrypt
 from golfbuddy.helper import sort_list_by_time
 

@@ -1,5 +1,5 @@
-from golfbuddy.routes import app
-from golfbuddy.models import db
+import app
+import db
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 

@@ -5,8 +5,8 @@ from flask import jsonify, request
 from flask_jwt_extended import create_access_token, jwt_required, get_jwt, JWTManager
 
 #from golfbuddy import app
-from golfbuddy.helper import validate_user_data
-from golfbuddy.models import TokenBlockList, db, User, Comment, Like, Post, app
+import validate_user_data
+import TokenBlockList, db, User, Comment, Like, Post, app
 
 jwt = JWTManager(app)
 

@@ -3,8 +3,8 @@ import os
 
 import pytest
 
-from golfbuddy import db
-from golfbuddy.routes import app
+import db
+import app
 
 
 @pytest.fixture
