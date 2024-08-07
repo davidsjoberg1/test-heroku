@@ -3,6 +3,7 @@ from datetime import timedelta
 import app
 
 
+
 TOKEN_EXPIRES = timedelta(hours=1)
 
 if 'NAMESPACE' in os.environ and os.environ['NAMESPACE'] == 'heroku':
