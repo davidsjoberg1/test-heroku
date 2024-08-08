@@ -1,0 +1,2 @@
+[console_scripts]
+axeman = axeman.core:main
