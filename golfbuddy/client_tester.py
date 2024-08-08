@@ -3,8 +3,8 @@ import os
 
 import pytest
 
-from . import db 
-from . import app
+from golfbuddy import db, app
+
 
 
 @pytest.fixture

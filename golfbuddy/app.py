@@ -6,9 +6,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 
 
-@app.route('/')
-def home():
-    return 'Hello, World!'
+
 
 if __name__ == '__main__':
     db.drop_all()

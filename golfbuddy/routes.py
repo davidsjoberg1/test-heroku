@@ -4,7 +4,7 @@ from flask_bcrypt import check_password_hash
 from flask import jsonify, request
 from flask_jwt_extended import create_access_token, jwt_required, get_jwt, JWTManager
 
-#from golfbuddy import app
+from golfbuddy import app
 import validate_user_data
 import TokenBlockList, db, User, Comment, Like, Post, app
 
