@@ -1,6 +1,6 @@
 import os
 from datetime import timedelta
-import app
+from . import app
 
 
 
@@ -16,6 +16,9 @@ else:
 SQLALCHEMY_DATABASE_URI = db_uri
 JWT_SECRET_KEY = 'my secret key'
 JWT_ACCESS_TOKEN_EXPIRES = TOKEN_EXPIRES
+
+
+
 
 
 """if 'WEBSITE_HOSTNAME' in os.environ:  # running on Azure: use postgresql

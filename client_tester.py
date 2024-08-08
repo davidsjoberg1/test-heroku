@@ -3,8 +3,8 @@ import os
 
 import pytest
 
-import db
-import app
+from . import db 
+from . import app
 
 
 @pytest.fixture

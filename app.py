@@ -1,5 +1,5 @@
-import app
-import db
+from . import app
+from . import db
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
