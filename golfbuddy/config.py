@@ -1,6 +1,6 @@
 import os
 from datetime import timedelta
-from . import app
+from golfbuddy import app
 
 
 
