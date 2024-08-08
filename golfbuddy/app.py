@@ -1,5 +1,5 @@
 from golfbuddy import app
-#from . import db
+from golfbuddy import db
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
