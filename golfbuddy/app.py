@@ -1,10 +1,10 @@
-#import app
+from golfbuddy import app
 #from . import db
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
 
-app = Flask(__name__)
+
 
 @app.route('/')
 def home():
